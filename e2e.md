@@ -1,11 +1,10 @@
 End to End Testing Guide
 ======
-This is a documented guide on the files involving software testing in the project 
-
-as well as how to operate the Protractor e2e test cases.
+This is a documented guide on the files involving software testing in the project as well as how to operate the Protractor e2e test cases.
 
 READ THROUGH THIS WHOLE DOCUMENTATION BEFORE TESTING THE APPLICATION TO AVOID ANY DAMAGE.
 
+Kindly update and make changes to **this** document where necessary.
 
 # Software Testing in an Ionic Application
 
@@ -65,7 +64,7 @@ Example:
 
 `setup.e2e-spec.ts`
 
-![Image of Spec Example](img/e2e_spec_example.jpg)
+![Image of Spec Example](https://firebasestorage.googleapis.com/v0/b/sgh-antibiotics-storage.appspot.com/o/e2e_spec_example.JPG?alt=media&token=77d86f83-5ebf-409e-bc78-2e42517e08dd)
 
 We send an email string to the email ion-input from the previous example via sendKeys on line 42.
 
@@ -97,7 +96,7 @@ The following `e2e-spec.ts` files get their return elements from the following `
 These correlations are not absolute and some `e2e-spec` files get return elements and methods from other `page-object` files.
 
 
-#Test Cases
+# Test Cases
 
 **1. `setup.e2e-spec.ts`**
 ===
@@ -230,9 +229,9 @@ Functions:
 -Add New Database Release
 
 
-**For the detailed functions click [here](https://docs.google.com/document/d/1abbm7Napa3aDNrirSPZoEnXDIOKELWtbDg7qToXYLFI/edit#).**
+**For more detailed automated test functions kindly refer to the `Automated E2E Test Cases Documentation.pdf` file in the `aes_documentation` folder.**
 
-#Running Protractor
+# Running Protractor
 
 To run `Protractor`, make sure that the roles and details for the accounts:
 
@@ -240,7 +239,7 @@ To run `Protractor`, make sure that the roles and details for the accounts:
 
 are not changed.
 
-*Also make sure that there is a testing hospital named `test-hospital`.
+**Also make sure that there is a testing hospital named `test-hospital`.**
 
 Ensure it has `2 database releases`, this hospital MUST be the first hospital on the list.
 
@@ -260,7 +259,7 @@ You can see if the test cases failed or passed in the terminal.
 
 Example in `calculator.e2e-spec.ts`:
 
-![Image of Testing Log in the Terminal](img/e2e_terminal_example.jpg)
+![Image of Testing Log in the Terminal](https://firebasestorage.googleapis.com/v0/b/sgh-antibiotics-storage.appspot.com/o/e2e_terminal_example.JPG?alt=media&token=36409de5-ba07-41ac-b536-5e460eb0ee57)
 
 The title 'Calculator Test Cases' is stated in the **describe** blocks of e2e-spec.ts files. The same goes for every other titles.
 
